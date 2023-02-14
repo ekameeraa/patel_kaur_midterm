@@ -1,0 +1,14 @@
+.hidden {
+    display: none;
+}
+
+body {
+    font-family: 'walter', 'Turncoat','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
