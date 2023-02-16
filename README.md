@@ -1,5 +1,5 @@
 # patel_kaur_midterm
-we are going to do this midterm as a team.
+we are going to do this midterm as a team for 2 desktop as well as 2 mobile pages.
 
 ## Contributing
 
@@ -10,7 +10,7 @@ we are going to do this midterm as a team.
 5. Submit a pull request :D
 
 ## Credits
-credits goes to Ekampreet Kaur
+credits goes to Ekampreet Kaur and Om Patel
 
 ## License
 MIT

@@ -5,21 +5,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <title>Billy Beer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&family=Margarine&display=swap" rel="stylesheet">
 </head>
 <body>
+    <h1 class="hidden">Billy Beer</h1>
     <div id="container">
-        <h1 class="hidden">Billy Beer</h1>
         <header id="main-header" class="grid">
-            <img  id="header-logo" src="images/logo_desktop.svg" alt="logo_desktop">
-           <nav id="main-nav">
+            <div id="header-logo">
+                <img src="images/logo_desktop.svg" alt="logo_desktop">
+            </div>
+            <nav id="header-nav">
+                <h2 class="hidden">Main</h2>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="merchandise.html">MERCHANDISE</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                    <li><a href="locations.html">LOCATIONS</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul id="nav-2">
+                    <li><a href="#">SIGN UP</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section id="hero" class="grid">
+                <h2 class="hidden">billy beer in different flavors </h2>
+                <div class="hero-images">
+                    <img src="images/hero-image.jpg" alt="hero-image">
+                </div>
+                <p>You deserve a great,light beer.</p>
+                <p>Billy's your can!</p>
+            </section>
 
+            <section id="features-con" class="grid">
+                <h2>Products</h2>
+                <p>Distinct flavors in "Billy Beer"</p>
+                <section>
+                    <img src="images/1.jpg" alt="1">
+                    <div id="beer1">
+                        <h2>Beer1</h2></div>
+                </section>
+                <section>
+                    <img src="images/2.jpg" alt="2">
+                    <div id="beer2">
+                        <h2>Beer2</h2></div>
+                </section>
+                <section>
+                    <img src="images/3.jpg" alt="3">
+                    <div id="beer3">
+                        <h2>Beer3</h2></div>
+                </section>
+                <button id="explore-more">Explore More</button>
+            </section>
+
+            <section id="about-us" class="grid">
+                <h2>The Billy Beer Story</h2>
+                <p>Named for one of our founders, Billy Dunn, BILLY BEER has been a crowd favorite since Uptown Brewing 
+                    Company opened its doors. Some people think we are crazy for brewing a light beer and calling it exactly 
+                    that. Fair enough. We were well aware going in that this style is maligned by the craft community. But it’s 
+                    our belief that craft isn’t exclusive to experimental recipes or adding basil and bacon to beers. Craft should 
+                    include brewing the most crushable styles and doing it better than the big guys. Of course we love double
+                    IPAs, stouts, and sours, but we also love beers we can throw back on gameday or while we’re out fishing.
+                    There will always be a place for un-fussy, approachable styles, and craft is the way to brew them right.</p>
+                <p>So how did it begin? From the very start when Billy and his partners were planning the brewery, Billy had 
+                    one condition: he wanted a beer that he and his friends could crush at football tailgates and on the golf 
+                    course. He wanted a light beer that didn’t taste bad. The brewmaster obliged and brewed a delicious craft
+                    light lager. At first, we debated listing it on our menu due to the stigma surrounding light beers. 
+                    We considered making BILLY BEER an off-menu selection for those “in the know.” But immediately, 
+                    people took to it and told us it was the best light beer they’d ever had. We embraced the concept of our 
+                    very own everyman’s beer and were proud to be doing it right. Now, we’re on a mission to bring the 
+                    ultimate drinkable beer to North Carolina.</p>
+                <p>This is America’s Light Craft Beer™.</p>
+            </section>
+        </main>
+
+    <footer id="footer-con">
+        <section id="footer-site" class="grid">
+            <h2 class="hidden">Footer Navigation</h2>
+            <div id="site1">
+                <h2>Site map</h2>
+                <ul>
+                    <li><a href="#c">HOME</a></li>
+                    <li><a href="#">MERCHANDISE</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">LOCATIONS</a></li>
+                </ul>   
+            </div>
+            <div id="site2">     
+                <h2>About Us</h2>
+                <ul>
+                    <li><a href="#">Who we are?</a></li>
+                    <li><a href="#">Our guarantee to you.</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Our team captain.</a></li>
+                    <li><a href="#">Giving Back.</a></li>
+                </ul>
+            </div>
+            <div id="site3">
+                <h2>Have Questions?</h2>
+                <ul>
+                    <li><a href="#">Help Centre</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                </ul>
+            </div>
+        </section>    
+
+        <section id="terms-Con" class="grid">
+            <h2 class="hidden">User Agreement</h2>
+            <div id="terms">
+                <ul>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#"> Privacy policy</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Cookie settings</a></li>
+                </ul>
+            </div>
+
+            <div id="footer-sns">
+                <ul>
+                   <li><a href="#"><img src="images/instagram.svg" alt="instagram"></a></li>
+                   <li><a href="#"><img src="images/twitter.svg" alt="twitter"></a></li>
+                   <li><a href="#"><img src="images/facebook.svg" alt="facebook"></a></li>
+               </ul>
+           </div>
+        </section>
+    </footer>
     </div>
+    <script src="js/main.js"></script>
 </body>
 </html>
