@@ -86,6 +86,7 @@ ul li {
 #hero #hero-image img {
 	margin: 0 auto;
 	margin-left: 500px;
+	grid-column: 1/8;
 }
 
 #features-con {
