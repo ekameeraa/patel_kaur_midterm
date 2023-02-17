@@ -1,0 +1,238 @@
+.hidden {
+    display: none;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+    color: #626262;
+}
+
+input, textarea {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #827f7f;
+    font-family: "Roboto Slab", Arial, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.container {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: solid 2px #333;
+}
+.grid {
+    display: grid;
+    padding-left: 15px;
+    padding-right: 15px;
+    grid-template-columns: repeat(4, 60px);
+    grid-column-gap: 30px;
+}
+
+.grid-full {
+   display: grid;
+   grid-template-columns: 375px;
+   grid-column-gap: 30px;
+}
+
+#main-nav {
+    grid-column: 1/-1;
+}
+
+#main-nav label img {
+	background: url(../images/burger.svg) center no-repeat;
+	border: 0px;
+	width: 20px;
+	height: 20px;
+	transition: all .5s ease;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+ }
+ 
+ #main-nav li a {
+     display: block;
+     padding: 10px 0 10px 0;
+     text-align: center;
+     color: #626262;
+ }
+ 
+ #main-nav li {
+     border-bottom: 1px solid #efefef;
+ }
+ 
+ #main-nav li:first-child {
+     border-top: 1px solid #efefef;
+ }
+ 
+ #main-nav li:last-child {
+     margin-bottom: 10px;
+ }
+
+#burger-con, #main-nav input {
+    display: none;
+}
+
+ #main-nav input:checked ~ #burger-con {
+    display: block;
+ }
+
+ #main-nav input:checked ~ label img{
+    transform: rotate(90deg);
+ }
+
+ #logo {
+    grid-column: 1/-1;
+    margin-right: 5px;
+ }
+
+ .hero-text {
+    background: rgb(255, 255, 255);
+    padding: 15px 15px;
+    font-size: 18px;
+    align-self: center;
+    background-color: ivory;
+ }
+
+ #products-text{
+    background-color: brown;
+    text-align: center;
+ }
+ #products-text:hover{
+    color:ivory;
+    background-color: #b4b4b4;
+ }
+ #product-con{
+    padding-top: 30px;
+    text-align: center;
+    background-color: #b6b4b4;
+ }
+ #product1, #product2, #product3{
+    margin-top: 30px;
+ }
+
+.explore-button {
+    background-color:ivory;
+    border: none;
+    color: blue;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: fit-content;
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.explore-button:hover {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+#story_sec{
+    background-color: ivory;
+    height: 350px;
+  }
+
+#story_h2 {
+    color: brown;
+    font-size: 54px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.view-story-button {
+    background-color: #ffffff;
+    border: none;
+    color:brown;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 18px;
+    margin-left: 200px;
+}
+
+.view-story-button:hover {
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
+  
+  #main-footer{
+    background-color: #b4b4b4;
+    height: 320px;
+  }
+
+#footer-h2{
+    font-size: 18px;
+    grid-column: 1/-1;
+    color: ivory;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#footer-2{
+    grid-column: 3/-1;
+    text-decoration: none;
+}
+#logos{
+    grid-column: 1/-1;
+    text-align: center;
+    
+}
+#ig{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*contact*/
+#contact-form-fields-right input, textarea {
+    padding: 14px;
+    border: 2px solid #d6d6d6;
+    background-color: #f7f7f7;
+    border-radius: 7px;
+    margin-bottom: 18px;
+    font: inherit;
+ }
+ 
+#contact-form-fields-right input[type="submit"] {
+    padding: 10px 24px;
+    background: #00000088;
+    color: #fff;
+    border: none;
+    transition: all 200ms ease-in;
+    width: 120px;
+    align-self: flex-end;
+    text-align: center;
+ }
+
+ #contact-form-fields-right input[type="submit"]:hover {
+    background-color: ivory;
+    border-radius: 10px;
+ }
+
+ #contact-form-fields-right{
+    background-color: ivory;
+    padding-left: 70px;
+ }
