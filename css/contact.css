@@ -12,6 +12,7 @@ body {
 .box-color {
 	color: #fff;
 	margin: 0;
+    text-align: center;
 }
 
 .container {
@@ -34,8 +35,8 @@ a{
 #main-header{
     width: 1200px;
     height: 120px;
-	background-color:ivory;
-	margin: 0 auto;
+    background-color: ivory;
+    margin: 0 auto;
 }
 
 ul li {
@@ -77,74 +78,112 @@ ul li {
 	background-color: black;
 }
 
-/*main*/
-#hero {
-	text-align: center;
-	color: whitesmoke;
+#form {
+    background-color:lightcyan;
+    width: 1200px;
+    margin: 0 auto;
 }
 
-#hero #hero-image img {
-	margin: 0 auto;
-	margin-left: 500px;
+#form h2 {
+    color: brown;
+    margin-left: 380px;
+    font-size: 50px;
 }
 
-#features-con {
-    margin-top: 30px;
-    display: flex;
-    text-align: center; 
-	margin: 0 auto;
+#identity .box {
+    width: 600px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50px;
+    margin-top: 20px;
+    text-align: center;
+    color: grey;
 }
 
-#features-con h2 { 
-	color: brown;
-	font-size: 40px;
-	margin-left: 500px;
+#identity.box  #first-name {
+    grid-column: 1/5;
 }
 
-#features-con p {
-	margin-left: 10px;
-	color: indigo;
-	margin-top: 80px;
+#identity.box  #last-name {
+    grid-column: 6/10;
 }
 
-#explore-more {
-	color: white;
-	width: 200px;
-	height: 50px;
-	grid-column: 4/5;
-	background-color: black;
+#email {
+    margin:auto;
 }
 
-#explore-more:hover {
-	color: blue;
-	background-color: goldenrod;
+#email #email-box {
+    border: solid 1px black;
+    width: 600px;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    color: grey;
 }
 
-#about-us {
-	background-color: burlywood;
-	grid-column: 2/7;
-	width:1200px;
-	height: 762px;
-	margin: 0 auto;
+#confirm-email #confirm-email-box {
+    border: solid 1px black;
+    width: 600px;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    color: grey;
 }
 
-#about-us:hover {
-	background-color: blanchedalmond;
+
+
+#contact #contact-box {
+    border: solid 1px black;
+    width: 600px;
+    height: 60px;
+    border-radius: 50px;
+    text-align: center;
+    color: grey;
 }
 
-#about-us h2 {
-	font-size: 40px;
-	text-align: center;
-	grid-column: 3/6;
-	color: brown;
-	margin-top: 20px;
-	margin-bottom: 20px;
+#address #city-box {
+    border: solid 1px black;
+    width: 600px;
+    height: 60px;   
+    border-radius: 50px;
+    text-align: center;
+    color: grey;
 }
 
-#about-us p {
-	grid-column: 2/7;
-	margin-top: 10px;
-	font-size: 20px;
+#address #province-box {
+    border: solid 1px black;
+    width: 600px;
+    height: 60px;   
+    border-radius: 50px;
+    margin-top: 10px;
+    text-align: center;
+    color: grey;
+}
+
+#describe #describe-box {
+    border: solid 1px black;
+    width: 500px;
+    height: 200px;
+    border-radius: 50px;
+    text-align: center;
+    color: grey;
+}
+
+#submit {
+color: white;
+width: 200px;
+height: 50px;
+grid-column: 4/5;
+background-color: black;
+margin-left: 480px;
+margin-top: 30px;
+margin-bottom: 40px;
+}
+
+#submit:hover {
+    color: white;
+    background-color:red;
+    font-size: 15px;
 }
 
 #footer-con {
@@ -158,7 +197,7 @@ ul li {
     background-color: lightyellow;
     padding-top: 100px;
 	color: black;
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 #footer-site h2 {
@@ -191,7 +230,7 @@ ul li {
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 #terms-con li a {
@@ -203,6 +242,7 @@ ul li {
 
 #terms-con #footer-sns {
 	grid-column: 6/8;
+
 }
 
 #footer-sns a{
